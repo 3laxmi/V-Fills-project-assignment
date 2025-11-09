@@ -1,16 +1,28 @@
-# React + Vite
+# Vernan Films Assignment 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##  Live Demo
+https://ornate-pie-7dd776.netlify.app/
 
-Currently, two official plugins are available:
+##  Tech Stack
+- React.js (Vite)
+- Material UI
+- CSS
+- Deployed on Netlify
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Contact Form
+POST API: https://vernanbackend.ezlab.in/api/contact-us/
 
-## React Compiler
+**Features:**
+- Fully responsive (mobile, tablet, desktop)
+- Front-end validation (no empty fields, email format check)
+- Shows “Form Submitted” on successful response
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Setup
+1. Clone repo
+2. Run `npm install`
+3. Start server: `npm run dev`
 
-## Expanding the ESLint configuration
+##  API Integration Proof (Postman)
+The contact form was successfully tested with the provided API endpoint using Postman.  
+Response file is included in the [`postman/`](./postman/) folder as proof of a successful POST request.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
